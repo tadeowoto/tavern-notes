@@ -1,6 +1,6 @@
 export default function MainNav() {
   return (
-    <nav className="w-full h-20 bg-red-100 flex justify-between items-center">
+    <nav className="w-full h-20 bg-bg border-b border-muted flex justify-between items-center">
       <div>
         <h1>Logo</h1>
       </div>
