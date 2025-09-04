@@ -1,4 +1,5 @@
 import "./globals.css";
+import { inter } from "@/lib/fonts";
 
 export default function RootLayout({
   children,
@@ -7,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`bg-white `}>{children}</body>
+      <body className={`${inter.className}`}>{children}</body>
     </html>
   );
 }
