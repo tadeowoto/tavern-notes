@@ -1,5 +1,6 @@
 import "./globals.css";
 import { inter } from "@/lib/fonts";
+import MainNav from "./ui/MainNav";
 
 export default function RootLayout({
   children,
@@ -8,7 +9,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.className} text-white`}>{children}</body>
+      <body className={`${inter.className} text-white`}>
+        <MainNav />
+        {children}
+      </body>
     </html>
   );
 }
