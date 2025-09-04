@@ -1,6 +1,7 @@
 import "./globals.css";
 import { inter } from "@/lib/fonts";
 import MainNav from "./ui/MainNav";
+import MainFooter from "./footer";
 
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
       <body className={`${inter.className} text-white`}>
         <MainNav />
         {children}
+        <MainFooter />
       </body>
     </html>
   );

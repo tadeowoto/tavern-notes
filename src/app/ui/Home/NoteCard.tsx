@@ -17,7 +17,7 @@ export default function NoteCard({
   return (
     <Link
       href={href}
-      className="w-95 h-40 p-8 flex flex-col items-start justify-center gap-2 bg-transparent border border-muted"
+      className="w-95 h-40 p-8 flex flex-col items-start justify-center gap-2 bg-transparent border-2 border-muted hover:border-primary transition-all duration-100"
     >
       <h1 className={`text-xl ${merriweather.className}`}>{title}</h1>
       <p className={`text-sm text-muted ${merriweather.className}`}>{desc}</p>
