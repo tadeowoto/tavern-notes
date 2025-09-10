@@ -5,4 +5,5 @@ export type NoteType = {
     desc: string;
     lenguages: string[];
     href: string;
+    content?: string;
 };
